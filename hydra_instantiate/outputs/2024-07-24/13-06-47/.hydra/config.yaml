@@ -1,0 +1,3 @@
+my_class:
+  _target_: hydra_instantiate.My_class
+  name: Hydra

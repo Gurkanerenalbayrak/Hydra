@@ -1,0 +1,11 @@
+foo:
+  bar:
+    _target_: some_file.ResNet18
+my_simple_model:
+  adapter:
+    _target_: some_fiel_LinearAdapter
+    in_features: 512
+    out_features: 10
+  head:
+    _target_: some_file.IdentityHead
+  some_other_model_var: 3

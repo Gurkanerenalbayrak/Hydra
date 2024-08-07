@@ -1,0 +1,7 @@
+# @package foo.bar 
+
+_target_: some_file.ResNet18
+
+
+
+###-> paket adı ve foo.bar da benim kopyaladığım paketin adı 

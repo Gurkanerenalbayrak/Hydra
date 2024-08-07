@@ -1,0 +1,5 @@
+# You need to modify this config file
+defaults:
+  - task: cifar10_classificaiton
+  - data_module: cifar10
+  - trainer: gpu
